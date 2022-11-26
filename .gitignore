@@ -37,3 +37,7 @@ build/
 
 ### Documents ###
 Documentacao/
+
+### node.js ###
+back-end/.yarn/
+back-end/.env
