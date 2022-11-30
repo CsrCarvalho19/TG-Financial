@@ -6,11 +6,13 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+require('dotenv/config');
 const db = require('./config/database')
 const dbUser = process.env.DB_USER
 const dbPass = process.env.DB_PASS
 const dbName = process.env.DB_NAME
-db(`mongodb+srv://financialTG:AlNNiR5WwCv5xGhJ@cluster0.0xp9e.mongodb.net/financial?retryWrites=true&w=majority`)
+const dbCluster = process.env.DB_CLUSTER
+db(`mongodb+srv://${dbUser}:${dbPass}@${dbCluster}.mongodb.net/${dbName}?retryWrites=true&w=majority`)
 
 var app = express();
 
