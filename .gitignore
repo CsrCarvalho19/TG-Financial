@@ -43,3 +43,12 @@ back-end/.yarn/
 back-end/.env
 back-end/node_modules/
 front-end/node_modules/
+
+### yarn ###
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
