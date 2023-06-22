@@ -1,0 +1,123 @@
+:host { 
+  display: contents; 
+}
+.consultar-lancamentos-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.consultar-lancamentos-navbar-interactive {
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #5004c4;
+}
+.consultar-lancamentos-desktop-menu {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.consultar-lancamentos-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.consultar-lancamentos-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: space-between;
+  flex-direction: column;
+}
+.consultar-lancamentos-text {
+  top: -9px;
+  left: -530px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+}
+.consultar-lancamentos-text03 {
+  top: 26px;
+  left: 255px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+}
+.consultar-lancamentos-text06 {
+  top: 26px;
+  left: 495px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+}
+.consultar-lancamentos-text09 {
+  top: 26px;
+  left: 795px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+}
+.consultar-lancamentos-navlink {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.consultar-lancamentos-button {
+  top: 415px;
+  left: 545px;
+  color: rgb(255, 255, 255);
+  width: 105px;
+  position: absolute;
+  background-color: rgb(80, 4, 196);
+}
+.consultar-lancamentos-text14 {
+  top: 210px;
+  left: 420px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.consultar-lancamentos-container2 {
+  top: 265px;
+  left: 0px;
+  width: 100%;
+  height: 126px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.consultar-lancamentos-ul1 {
+  width: 385px;
+}
+.consultar-lancamentos-ul2 {
+  width: 307px;
+}
+.consultar-lancamentos-ul3 {
+  width: 504px;
+}
+@media(max-width: 767px) {
+  .consultar-lancamentos-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .consultar-lancamentos-desktop-menu {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .consultar-lancamentos-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+}

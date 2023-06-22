@@ -1,0 +1,119 @@
+:host { 
+  display: contents; 
+}
+.lancamento-de-gastos-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.lancamento-de-gastos-navbar-interactive {
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #5004c4;
+}
+.lancamento-de-gastos-desktop-menu {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.lancamento-de-gastos-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.lancamento-de-gastos-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: space-between;
+  flex-direction: column;
+}
+.lancamento-de-gastos-text {
+  top: -9px;
+  left: -530px;
+  color: rgb(255, 255, 255);
+  position: static;
+}
+.lancamento-de-gastos-text03 {
+  top: 26px;
+  left: 255px;
+  color: rgb(255, 255, 255);
+  position: static;
+}
+.lancamento-de-gastos-text06 {
+  top: 26px;
+  left: 495px;
+  color: rgb(255, 255, 255);
+  position: static;
+}
+.lancamento-de-gastos-text09 {
+  top: 26px;
+  left: 795px;
+  color: rgb(255, 255, 255);
+  position: static;
+}
+.lancamento-de-gastos-navlink {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.lancamento-de-gastos-button {
+  top: 415px;
+  left: 545px;
+  color: rgb(255, 255, 255);
+  width: 105px;
+  position: absolute;
+  background-color: rgb(80, 4, 196);
+}
+.lancamento-de-gastos-textinput {
+  top: 370px;
+  left: 460px;
+  position: absolute;
+}
+.lancamento-de-gastos-textinput1 {
+  top: 325px;
+  left: 460px;
+  position: absolute;
+}
+.lancamento-de-gastos-textinput2 {
+  top: 280px;
+  left: 460px;
+  position: absolute;
+}
+.lancamento-de-gastos-text14 {
+  top: 210px;
+  left: 430px;
+  color: #000000;
+  position: absolute;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+@media(max-width: 767px) {
+  .lancamento-de-gastos-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .lancamento-de-gastos-desktop-menu {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .lancamento-de-gastos-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+}

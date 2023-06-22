@@ -1,0 +1,120 @@
+:host { 
+  display: contents; 
+}
+.cadastrar-usuario-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.cadastrar-usuario-navbar-interactive {
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #5004c4;
+}
+.cadastrar-usuario-desktop-menu {
+  display: flex;
+}
+.cadastrar-usuario-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.cadastrar-usuario-text {
+  color: rgb(255, 255, 255);
+}
+.cadastrar-usuario-select {
+  top: 305px;
+  left: 460px;
+  width: 260px;
+  height: 32px;
+  position: absolute;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+}
+.cadastrar-usuario-button {
+  top: 580px;
+  left: 460px;
+  color: rgb(255, 255, 255);
+  width: 105px;
+  position: absolute;
+  background-color: rgb(80, 4, 196);
+}
+.cadastrar-usuario-navlink {
+  top: 580px;
+  left: 617px;
+  color: rgb(255, 255, 255);
+  width: 101px;
+  position: absolute;
+  text-decoration: none;
+  background-color: rgb(80, 4, 196);
+}
+.cadastrar-usuario-text3 {
+  top: 9px;
+  left: 28px;
+}
+.cadastrar-usuario-textinput {
+  top: 260px;
+  left: 460px;
+  position: absolute;
+}
+.cadastrar-usuario-textinput1 {
+  top: 532px;
+  left: 459px;
+  position: absolute;
+}
+.cadastrar-usuario-textinput2 {
+  top: 485px;
+  left: 460px;
+  position: absolute;
+}
+.cadastrar-usuario-textinput3 {
+  top: 440px;
+  left: 460px;
+  position: absolute;
+}
+.cadastrar-usuario-textinput4 {
+  top: 395px;
+  left: 460px;
+  position: absolute;
+}
+.cadastrar-usuario-textinput5 {
+  top: 350px;
+  left: 460px;
+  position: absolute;
+}
+.cadastrar-usuario-text6 {
+  top: 210px;
+  left: 435px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+@media(max-width: 767px) {
+  .cadastrar-usuario-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .cadastrar-usuario-desktop-menu {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .cadastrar-usuario-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+}
